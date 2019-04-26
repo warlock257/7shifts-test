@@ -10,9 +10,7 @@ intAdd = (inputString) =>{
         console.log("custom delimiter: " + delimiter)
         i++
     }
-
     let stringArray = inputString.split(delimiter)
-    //console.log(stringArray)
     let sum = 0
     for(i; i < stringArray.length; i++){
         if(stringArray[i] < 0){
@@ -23,8 +21,6 @@ intAdd = (inputString) =>{
             sum = sum + Number(stringArray[i])
         }
     }
-    
-
     if (negError === true){
         let listNegNums = negNums.join()
         return "Negatives not allowed: " + listNegNums
@@ -32,7 +28,6 @@ intAdd = (inputString) =>{
         return sum
     }
 }
-
 
 
 console.log("\n======== Comma Delimiters =========\n")

@@ -1,6 +1,4 @@
 const assert = require('assert')
-//const expect = require('chai')
-//const operations = require('./operations.js')
 const intAdd = require('./string-calculator')
 
 //make sure mocha is working - should pass
